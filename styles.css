@@ -1,18 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.bg{
-    
+body{
+    background-color: black;
+}
+
+.bg {
+
     background-image: url(./assets/images/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    height: 700px;
+    height: 110vh;
     width: 100%;
 }
 
-.bg .box{
-    height: 700px;
+.bg .box {
+    height: 110vh;
     width: 100%;
     background-color: black;
     opacity: 0.44;
@@ -20,7 +24,7 @@
     top: 0;
 }
 
-nav span img{
+nav span img {
     height: 3vw;
     margin-top: 1vw;
     margin-left: 15vw;
@@ -28,7 +32,7 @@ nav span img{
     z-index: 2;
 }
 
-nav{
+nav {
     display: flex;
     height: 5vw;
     margin-top: 0;
@@ -37,16 +41,61 @@ nav{
     /* padding: 3px 15px 0px 15px; */
 }
 
-.nav-button{
+.nav-button {
     margin: 2vw 5vw 2vw 5vw;
     position: relative;
     z-index: 2;
 }
 
-.home-txt{
+.home-text {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.subt-1 {
+    font-size: 24px;
+    margin-top: 3vw;
+    font-weight: 400;
+}
+
+.subt-2 {
+    margin-top: 3vw;
+    font-size: 20px;
+    font-weight: 400;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.email input{
+    height: 60px;
+    width: 350px;
+    background-color: black;
+    border-color: black;
+    opacity: 0.7;
+    color: #ffffff;
+}
+
+.email button{
+    height: 60px;
+    width: 140px;
+    margin-left: 0.5vw;
+    background-color: red;
+    color: #ffffff;
 }
