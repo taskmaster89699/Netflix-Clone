@@ -19,7 +19,7 @@ body{
     height: 110vh;
     width: 100%;
     background-color: black;
-    opacity: 0.44;
+    opacity: 0.7;
     position: absolute;
     top: 0;
 }
@@ -55,7 +55,6 @@ nav {
     color: white;
     border: 0.3px solid white;
     border-radius: 4px;
-    opacity: 0.7;
 }
 
 .nav-button button:last-of-type{
@@ -75,6 +74,7 @@ nav {
     color: rgb(255, 255, 255);
     flex-direction: column;
     position: relative;
+    top: 10vh;
     font-family: "Roboto", sans-serif;
     font-style: normal;
 }
@@ -87,12 +87,12 @@ nav {
 
 .subt-1 {
     font-size: 24px;
-    margin-top: 3vw;
+    margin-top: 3vh;
     font-weight: 400;
 }
 
 .subt-2 {
-    margin-top: 3vw;
+    margin-top: 4vh;
     font-size: 20px;
     font-weight: 400;
 }
@@ -104,7 +104,7 @@ nav {
 }
 
 .email input{
-    height: 10vh;
+    height: 9vh;
     width: 24vw;
     background-color: black;
     border-color: black;
@@ -112,16 +112,22 @@ nav {
     color: #ffffff;
     border: 1px solid white;
     border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: large;
 }
 
 .email button{
-    height: 10vh;
+    height: 9vh;
     width: 10vw;
     margin-left: 0.5vw;
     background-color: red;
     color: #ffffff;
     border: none;
     border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: large;
     
 }
 
