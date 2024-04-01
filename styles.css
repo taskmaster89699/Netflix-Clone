@@ -11,7 +11,7 @@ body{
 .bg {
 
     background-image: url(./assets/images/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    height: 110vh;
+    height: calc(110vh - 8px);
     width: 100%;
 }
 
@@ -25,7 +25,7 @@ body{
 }
 
 nav span img {
-    height: 3vw;
+    height: 8vh;
     margin-top: 1vw;
     margin-left: 15vw;
     position: relative;
@@ -34,7 +34,7 @@ nav span img {
 
 nav {
     display: flex;
-    height: 5vw;
+    height: 5vh;
     margin-top: 0;
     display: flex;
     justify-content: space-between;
@@ -42,9 +42,29 @@ nav {
 }
 
 .nav-button {
-    margin: 2vw 5vw 2vw 5vw;
+    margin: 6vh 5vw 6vh 5vw;
     position: relative;
     z-index: 2;
+}
+
+.nav-button button:first-of-type{
+    height: 6vh;
+    width: 8vw;
+    margin-right: 4vw;
+    background-color: black;
+    color: white;
+    border: 0.3px solid white;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.nav-button button:last-of-type{
+    height: 6vh;
+    width: 6vw;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 
 .home-text {
@@ -84,18 +104,27 @@ nav {
 }
 
 .email input{
-    height: 60px;
-    width: 350px;
+    height: 10vh;
+    width: 24vw;
     background-color: black;
     border-color: black;
     opacity: 0.7;
     color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
 }
 
 .email button{
-    height: 60px;
-    width: 140px;
+    height: 10vh;
+    width: 10vw;
     margin-left: 0.5vw;
     background-color: red;
     color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.line{
+    border: 4px solid grey;
 }
